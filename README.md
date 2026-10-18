@@ -15,6 +15,11 @@ To develop a user-friendly sports blog website where users can explore sports bl
 - Match Highlights page
 - Parrot green, black, and white UI theme
 
+## Workflow
+
+### Project Workflow
+![Project Workflow](IMAGE/workflow.png)
+
 ## Technologies Used
 
 - HTML
@@ -26,9 +31,21 @@ To develop a user-friendly sports blog website where users can explore sports bl
 
 College mini project — under development.
 
-## How to Run
 
-Download or clone this repository and open `index.html` in a web browser.
+## Prototype images of the website design
+
+### Home Page
+![Home Page](IMAGE/HOME.png)
+
+### Trending Page
+![Trending Page](IMAGE/trending.png)
+
+### Live Score Page
+![Live Score Page](IMAGE/score.png)
+
+### Highlights Page
+![Highlights Page](IMAGE/highlight.png)
+
 
 ## Future Improvements
 
