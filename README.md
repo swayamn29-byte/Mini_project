@@ -44,7 +44,7 @@ College mini project — under development.
 ![Live Score Page](IMAGE/score.png)
 
 ### Highlights Page
-![Highlights Page](IMAGE/highlight.png)
+![Highlights Page](IMAGE/heighlight.png)
 
 
 ## Future Improvements
