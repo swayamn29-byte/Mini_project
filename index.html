@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sports Hub | Sports News</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <h1 class="logo">SPORTS<span>HUB</span></h1>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trending.html">Trending</a></li>
+                <li><a href="scores.html">Live Score</a></li>
+                <li><a href="highlights.html">Highlights</a></li>
+            </ul>
+
+            <input type="text" id="search"
+                   placeholder="Search sports news...">
+
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="category">TOP STORY</p>
+
+                <h2>THE WORLD OF SPORTS.
+                    ALL IN ONE PLACE.</h2>
+
+                <p>
+                    Discover the latest sports news,
+                    match updates and exciting stories.
+                </p>
+
+                <a href="#latest" class="read-btn">
+                    Explore News
+                </a>
+
+            </div>
+
+        </section>
+
+
+        
+       
+<!-- Latest News -->
+
+<section class="news-section" id="latest">
+
+    <h2>Latest News</h2>
+
+    <div class="news-container">
+
+        <!-- Football -->
+        <article class="news-card" data-article="football">
+
+            <img src="images/football.jpg" alt="Football match">
+
+            <p class="category">FOOTBALL</p>
+
+            <h3>Latest Football Updates</h3>
+
+            <p>
+                Read the latest news and updates
+                from the world of football.
+            </p>
+
+        </article>
+
+
+        <!-- Cricket -->
+        <article class="news-card" data-article="cricket">
+
+            <img src="images/cricket.jpg" alt="Cricket match">
+
+            <p class="category">CRICKET</p>
+
+            <h3>Cricket News Today</h3>
+
+            <p>
+                Explore cricket news, match reports
+                and tournament updates.
+            </p>
+
+        </article>
+
+
+        <!-- Basketball -->
+        <article class="news-card" data-article="basketball">
+
+            <img src="images/basketball.jpg" alt="Basketball match">
+
+            <p class="category">BASKETBALL</p>
+
+            <h3>Basketball Highlights</h3>
+
+            <p>
+                Discover exciting basketball
+                stories and updates.
+            </p>
+
+        </article>
+
+
+        <!-- Tennis -->
+        <article class="news-card" data-article="tennis">
+
+            <img src="images/tennis.jpg" alt="Tennis match">
+
+            <p class="category">TENNIS</p>
+
+            <h3>Tennis News and Updates</h3>
+
+            <p>
+                Follow tennis tournaments,
+                players and match performances.
+            </p>
+
+        </article>
+
+
+        <!-- Badminton -->
+        <article class="news-card" data-article="badminton">
+
+            <img src="images/badminton.jpg" alt="Badminton match">
+
+            <p class="category">BADMINTON</p>
+
+            <h3>Badminton News</h3>
+
+            <p>
+                Explore badminton matches,
+                tournament news and player updates.
+            </p>
+
+        </article>
+
+
+        <!-- Hockey -->
+        <article class="news-card" data-article="hockey">
+
+            <img src="images/hockey.jpg" alt="Hockey match">
+
+            <p class="category">HOCKEY</p>
+
+            <h3>Field Hockey Updates</h3>
+
+            <p>
+                Discover hockey match updates,
+                teams and performances.
+            </p>
+
+        </article>
+
+
+        <!-- Formula 1 -->
+        <article class="news-card" data-article="f1">
+
+            <img src="images/f1.jpg" alt="Formula 1 race">
+
+            <p class="category">FORMULA 1</p>
+
+            <h3>Formula 1 Racing News</h3>
+
+            <p>
+                Follow racing news, drivers,
+                teams and race updates.
+            </p>
+
+        </article>
+
+
+        <!-- Volleyball -->
+        <article class="news-card" data-article="volleyball">
+
+            <img src="images/volleyball.jpg" alt="Volleyball match">
+
+            <p class="category">VOLLEYBALL</p>
+
+            <h3>Volleyball News</h3>
+
+            <p>
+                Explore volleyball competitions,
+                team performances and match stories.
+            </p>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+        <!-- Live Scores -->
+        <section class="scores-section">
+
+            <h2>Live Scoreboard</h2>
+
+            <div class="score-container">
+
+                <div class="score-card">
+                    <h3>Cricket</h3>
+                    <p>India vs Australia</p>
+                    <h2>145/4</h2>
+                    <p>Sample Score</p>
+                </div>
+
+                <div class="score-card">
+                    <h3>Football</h3>
+                    <p>Team A vs Team B</p>
+                    <h2>2 - 1</h2>
+                    <p>Sample Score</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+
+            <h2>Stay Updated</h2>
+
+            <p>Get the latest sports news in your inbox.</p>
+
+            <form id="newsletterForm">
+
+                <input type="email"
+                       id="email"
+                       placeholder="Enter your email"
+                       required>
+
+                <button type="submit">Subscribe</button>
+
+            </form>
+
+            <p id="message"></p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>SPORTS<span>HUB</span></h2>
+
+        <p>Your destination for sports news and updates.</p>
+
+        <p>&copy; 2026 Sports Hub. All rights reserved.</p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
